@@ -1,0 +1,15 @@
+[package]
+name = "homebrew-tui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ratatui = "0.20"
+crossterm = "0.26"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+unicode-width = "0.1"
+
+[dev-dependencies]
+serde = { version = "1.0", features = ["derive"] }

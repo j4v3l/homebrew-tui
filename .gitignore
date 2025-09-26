@@ -1,0 +1,58 @@
+# Rust/Cargo
+/target/
+**/*.rs.bk
+# Note: keep Cargo.lock tracked for applications to ensure reproducible builds
+!/Cargo.lock
+
+# Binaries
+/*.exe
+/*.dll
+/*.dylib
+/*.so
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Logs and caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Build artifacts from other tools/environments
+dist/
+build/
+
+# Test output
+/tests/**/output/
+
+# Misc
+.env
+.env.*
+
+# Ignore local cargo config if any
+.cargo/
+
+# Ignore generated documentation (if produced locally)
+doc/
+
+# Ignore IDE run directories
+crates/**/target/
+
+# (Cargo.lock is intentionally tracked)
