@@ -16,8 +16,6 @@ Screenshot
 
 ![homebrew-tui screenshot](assets/screenshot.png)
 
-_Replace `assets/screenshot.png` with a real screenshot image (PNG recommended)._
-
 Quick feature list
 
 - Installed pane: list installed formulae with basic metadata and caveats shown in the Details pane
